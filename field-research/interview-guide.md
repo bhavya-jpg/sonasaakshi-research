@@ -1,5 +1,7 @@
 # Field interview guide
 
+Field sites: jewellers and karigar workshops in Hamirpur and nearby towns in Himachal Pradesh first, then Bengaluru (Avenue Road, Kilari Road, Jayanagar) through KAVMS introductions or calls.
+
 Target before the prelim submission: **5 jewellers, 5 karigars (at least 3 Bengali), 1 refiner**. Run interviews in pairs: one person asks, one takes notes. Each takes 20 to 30 minutes. Log every interview in `interview-log-template.csv` the same day.
 
 ## Consent script (read aloud in the person's language)
@@ -25,7 +27,7 @@ Warm-up: How many years in the trade? How many karigars do you work with now? Ho
 
 ## Karigar (or workshop owner)
 
-Warm-up: Where are you from? How long in Bengaluru? Which language is easiest for you? How many jewellers do you work for?
+Warm-up: Where are you from? How long in this town? Which language is easiest for you? How many jewellers do you work for?
 
 1. When a jeweller gives you gold, what record do you get? Do you keep your own?
 2. How is the wastage allowance decided? Who decides?

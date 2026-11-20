@@ -2,7 +2,7 @@
 
 **Tech4Bharat 2026 (GAVS Hackathon) · Theme 2 Jeweltech · Problem 2.2: Gold given to karigars for job-work is tracked on trust, and disputes follow · Agentic AI**
 
-SonaSaakshi is a voice-first AI agent that sits between a jeweller and the karigars (artisan goldsmiths) he gives gold to for job work. It records every issue, return, wastage allowance, deadline and payment as a **two-party record that both sides sign**. Each record is spoken back in each party's own language: Kannada-English for the jeweller, Bengali or Hindi for most karigars. It plans deadlines against customers' wedding dates and runs a fair re-weigh protocol when two scales disagree. It settles labour only after both parties approve. Over time the karigar builds a **Work Passport**, a clean record of work delivered that he owns and can share, with consent, with a lender.
+SonaSaakshi is a voice-first AI agent that sits between a jeweller and the karigars (artisan goldsmiths) he gives gold to for job work. It records every issue, return, wastage allowance, deadline and payment as a **two-party record that both sides sign**. Each record is spoken back in each party's own language: Hindi-English or Kannada-English for the jeweller, Bengali or Hindi for most karigars. It plans deadlines against customers' wedding dates and runs a fair re-weigh protocol when two scales disagree. It settles labour only after both parties approve. Over time the karigar builds a **Work Passport**, a clean record of work delivered that he owns and can share, with consent, with a lender.
 
 This repository holds our research, references, field-research kit and design notes. Application code will live in a separate repository.
 
@@ -67,12 +67,12 @@ business/
 
 | Name | Role |
 | --- | --- |
-| [Name 1] | Agent orchestration and backend |
-| [Name 2] | Voice pipeline (Kannada, Bengali, Hindi) |
-| [Name 3] | Scale integration, offline sync, PWA |
-| [Name 4] | Field research, design, business model |
+| Prashant Bahuguna (CSE, 3rd year) | AI: voice agent, deadline planner |
+| Prashant Thakur (CSE, 3rd year) | Field research, design, business model |
+| Puneet Yadav (CSE, 3rd year) | Scale integration, offline sync, PWA |
+| Bhavya Aggarwal (EE, 3rd year) | Agent orchestration, co-signed ledger, backend |
 
-Institute: [Your college]
+Institute: NIT Hamirpur
 
 ## Licence
 

@@ -31,6 +31,7 @@ All links retrieved on 20 November 2026. "Use" says what each source supports in
 | 13 | [Gold governance and goldsmithery (IIM Ahmedabad working paper)](https://iima.ac.in:443/sites/default/files/2022-11/Gold%20governance%20and%20goldsmithery.pdf) | Bengali goldsmiths dominate the informal manufacturing sector |
 | 14 | [Precarious employment in gold jewellery manufacturing (IIM-A, IGPC report, 2023)](https://www.iima.ac.in/sites/default/files/2024-04/IGPC%20funded%20project%20BVIIMAJKJXLRI-%20Final%20Report%20June2023%20%281%29.pdf) | Trust-based informal employment; karigar lifecycle |
 | 15 | [Karigars have nowhere to return (Indian Jeweller)](https://www.indianjeweller.in/Indian-Jewellery-News/12506/karigars-have-nowhere-to-return) | Bengaluru named among the hubs where West Bengal karigars work |
+| 16a | [Skilled artisans from other states in Amritsar (The Tribune)](https://www.tribuneindia.com/news/amritsar/skilled-artisans-from-other-states-add-colour-to-citys-rich-cultural-tapestry-give-city-a-cosmopolitan-look) | Bengali karigars also work in north Indian jewellery markets |
 | 16 | [Fall in demand, Mumbai jewellery workforce (ThePrint)](https://theprint.in/2017/10/09/fall-demand-mumbai-jewellery-workforce) | Karigar associations; historically cash-based pay |
 
 ## Existing software (competitive landscape)
