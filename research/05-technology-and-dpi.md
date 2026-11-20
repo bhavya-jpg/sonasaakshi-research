@@ -3,7 +3,7 @@
 ## Voice
 
 - **Sarvam Saaras** speech-to-text covers 22 Indian languages plus English. It handles code-mixed speech and mid-sentence language switches, supports 8 kHz telephony audio, and offers REST (up to 30 s), batch and WebSocket streaming ([docs](https://docs.sarvam.ai/api/getting-started/models/saaras.md)).
-- Its `codemix` output mode keeps English words in English and Indic words in native script, which suits a jeweller saying "Ramesh ko 52.340 gram issue karo" or "Ramesh-ge 52.340 gram issue maadi". Language codes include `kn-IN` and `bn-IN` ([API reference](https://docs.sarvam.ai/api-reference/speech-to-text/transcribe)).
+- Its `codemix` output mode keeps English words in English and Indic words in native script, which suits a jeweller saying "Subrata ko 52.340 gram issue karo" or "Subrata-ge 52.340 gram issue maadi". Language codes include `kn-IN` and `bn-IN` ([API reference](https://docs.sarvam.ai/api-reference/speech-to-text/transcribe)).
 - **Numbers are the risk.** Grams to three decimals must never come from speech alone. The scale reading is the source of truth; speech gives only the intent, the karigar, the item and the date. The read-back states the scale value.
 
 ## Weight capture
