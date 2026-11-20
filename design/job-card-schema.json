@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SonaSaakshi job-card event",
+  "description": "One append-only event in a job card's co-signed ledger. Events chain by prev_hash.",
+  "type": "object",
+  "required": ["event_id", "job_card_id", "type", "actor", "at", "payload", "prev_hash", "signature"],
+  "properties": {
+    "event_id": { "type": "string", "description": "UUIDv7, generated on device; makes offline sync idempotent" },
+    "job_card_id": { "type": "string" },
+    "type": {
+      "type": "string",
+      "enum": [
+        "ISSUE_PROPOSED", "ISSUE_APPROVED", "ISSUE_ACCEPTED",
+        "DEADLINE_RISK_FLAGGED", "REASSIGN_PROPOSED", "REASSIGN_APPROVED",
+        "RETURN_WEIGHED", "RECONCILED", "DISPUTE_RAISED", "REWEIGH_BOOKED", "REWEIGH_RECORDED",
+        "SETTLEMENT_PROPOSED", "SETTLEMENT_APPROVED", "PAYOUT_APPROVED", "PAYOUT_CONFIRMED",
+        "PASSPORT_SHARE_CONSENTED", "CLOSED"
+      ]
+    },
+    "actor": {
+      "type": "object",
+      "required": ["role", "id"],
+      "properties": {
+        "role": { "enum": ["jeweller", "karigar", "cafe_operator", "agent", "refiner"] },
+        "id": { "type": "string" }
+      }
+    },
+    "at": { "type": "string", "format": "date-time" },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "purity_karat": { "type": "number", "examples": [22] },
+        "issued_g": { "type": "number", "multipleOf": 0.001 },
+        "finished_g": { "type": "number", "multipleOf": 0.001 },
+        "scrap_g": { "type": "number", "multipleOf": 0.001 },
+        "wastage_pct": { "type": "number" },
+        "due_date": { "type": "string", "format": "date" },
+        "occasion_date": { "type": "string", "format": "date" },
+        "item": { "type": "string", "examples": ["2 bangles"] },
+        "reading_source": { "enum": ["scale_usb", "scale_ble", "display_ocr", "manual_flagged", "simulated"] },
+        "labour_rs": { "type": "number" },
+        "simulated": { "type": "boolean", "description": "True for any sandbox value; the UI must show [SIMULATED]" },
+        "voice_readback_lang": { "enum": ["kn-IN", "bn-IN", "hi-IN", "en-IN"] }
+      }
+    },
+    "prev_hash": { "type": "string", "description": "SHA-256 of the previous event in this job card" },
+    "signature": { "type": "string", "description": "Signature by the actor's device key over the event without this field" }
+  }
+}
